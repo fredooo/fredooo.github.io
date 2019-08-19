@@ -1,0 +1,34 @@
+.pub-image {
+    margin-top: 50px;
+    height: 195px;
+    width: 195px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+.pub-entry {
+    margin-top: 50px;
+    margin-left: 25px;
+    height: 195px;
+    text-align: left;
+}
+
+.pub-authors {
+    font-size: 0.9em;
+}
+
+.pub-title {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.pub-published {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.pub-link {
+    margin: 0 5px;
+}
