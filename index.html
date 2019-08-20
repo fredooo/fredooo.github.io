@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
 	<title>Frederik Dennig | Personal Website</title>
 	<meta charset="utf-8" />
@@ -9,8 +8,16 @@
 	<link rel="stylesheet" href="static/css/academicons.min.css" />
 	<script type="text/javascript" src="../../lib/jquery.min.js"></script>
 	<script type="text/javascript" src="../../lib/breakpoints.min.js"></script>
-</head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146072107-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
+		gtag('config', 'UA-146072107-1');
+	</script>
+</head>
 <body class="is-preload">
 
 	<!-- Header -->
@@ -165,34 +172,50 @@
 
 				<div class="container">
 					<div class="row">
-						<div class="col-2 col-12-mobile icon solid fa-fingerprint fa-5x" style="margin-top: 35px;">
+						<div class="col-2">
+							<div class="icon solid fa-fingerprint" style="margin-top: 3.3vw; font-size: 8vw;"></div>
 						</div>
-						<p class="col-10 col-12-mobile" style="text-align: left;"><strong>Research Interests:</strong>
-							My passion is
-							Data Analysis and Visual Analytics. My research encompasses
-							Interactive Data Visualization, Pattern Detection, Similarity Search
-							Visual-Interactive Machine Learning, Recommender
-							Systems, and Visual Analytics for Cyber Security.</p>
-					</div>
-					<div style="height: 50px;"></div>
-					<div class="row">
-						<p class="col-10 col-12-mobile" style="text-align: left;"><strong>CV:</strong> Before <a
-								href="https://www.vis.uni-konstanz.de/mitglieder/dennig">my current
-								work</a> as Research Associate in the Data Analysis and Visualization Group at the
-							University of Konstanz, I received the M.Sc. in Computer and Information Science in 2019 and
-							the B.Sc. in Computer Science in 2016 from the University of Konstanz.</p>
-						<div class="col-2 col-12-mobile icon solid fa-flag fa-5x" style="margin-top: 35px;"></div>
-					</div>
-					<div style="height: 50px;"></div>
-					<div class="row">
-						<div class="col-2 col-12-mobile icon solid fa-globe-americas fa-5x" style="margin-top: 35px;">
+						<div class="col-10">
+							<p style="text-align: left;"><strong>Research Interests:</strong>
+								My passion is
+								Data Analysis and Visual Analytics. My research encompasses
+								Interactive Data Visualization, Pattern Detection, Similarity Search
+								Visual-Interactive Machine Learning, Recommender
+								Systems, and Visual Analytics for Cyber Security.</p>
 						</div>
-						<p class="col-10 col-12-mobile" style="text-align: left;"><strong>Personal Interests:</strong>
-							In my spare time, I like to go haking around the beautiful Lake Constance and the Alps.
-							Another interest of
-							mine is to fly FPV quadcopter, which allows for a first-person perspective while performing
-							exciting
-							maneuvers.</p>
+					</div>
+
+					<div style="height: 50px;"></div>
+
+					<div class="row">
+						<div class="col-2">
+							<div class="icon solid fa-flag" style="margin-top: 3.3vw; font-size: 8vw;"></div>
+						</div>
+						<div class="col-10">
+							<p style="text-align: left;"><strong>CV:</strong> Before <a
+									href="https://www.vis.uni-konstanz.de/mitglieder/dennig">my current
+									work</a> as Research Associate in the Data Analysis and Visualization Group at the
+								University of Konstanz, I received the M.Sc. in Computer and Information Science in 2019
+								and
+								the B.Sc. in Computer Science in 2016 from the University of Konstanz.</p>
+						</div>
+					</div>
+
+					<div style="height: 50px;"></div>
+
+					<div class="row">
+						<div class="col-2">
+							<div class="icon solid fa-globe-americas" style="margin-top: 3.3vw; font-size: 8vw;"></div>
+						</div>
+						<div class="col-10">
+							<p style="text-align: left;"><strong>Personal Interests:</strong>
+								In my spare time, I like to go haking around the beautiful Lake Constance and the Alps.
+								Another interest of
+								mine is to fly FPV quadcopter, which allows for a first-person perspective while
+								performing
+								exciting
+								maneuvers.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -206,21 +229,19 @@
 					<h2>Contact and Social Media</h2>
 				</header>
 
-				<div style="height: 50px;"></div>
-
 				<div class="container" style="width: fit-content">
 					<div class="row">
-						<div class="col-4 col-12-mobile">
+						<div class="col-4 col-12-narrower" style="margin-top: 50px">
 							<a href="mailto:fdennig@gmx" class="icon solid fa-envelope fa-5x"
 								style="border-bottom: none; margin: 0 50px">
 							</a>
 						</div>
-						<div class="col-4 col-12-mobile">
+						<div class="col-4 col-12-narrower" style="margin-top: 50px">
 							<a href="https://github.com/fredooo" class="icon brands fa-github fa-5x"
 								style="border-bottom: none; margin: 0 50px">
 							</a>
 						</div>
-						<div class="col-4 col-12-mobile">
+						<div class="col-4 col-12-narrower" style="margin-top: 50px">
 							<a href="https://twitter.com/frederikdennig" class="icon brands fa-twitter fa-5x"
 								style="border-bottom: none; margin: 0 50px">
 							</a>
@@ -236,8 +257,8 @@
 				<!--
 				<form method="post" action="#">
 					<div class="row">
-						<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-						<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+						<div class="col-6 col-12-narrower"><input type="text" name="name" placeholder="Name" /></div>
+						<div class="col-6 col-12-narrower"><input type="text" name="email" placeholder="Email" /></div>
 						<div class="col-12">
 							<textarea name="message" placeholder="Message"></textarea>
 						</div>
@@ -276,4 +297,5 @@
 		<div id="dialog-content"></div>
 	</div>
 <script type="text/javascript" src="bundle.js"></script></body>
+
 </html>

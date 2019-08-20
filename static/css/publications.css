@@ -1,18 +1,32 @@
 .pub-image {
-    margin-top: 50px;
-    height: 195px;
-    width: 195px;
+    margin-top: 60px;
+    width: 100%;
     background-color: white;
     border-width: 1px;
     border-style: solid;
     border-color: #ccc;
 }
 
+@media screen and (max-width: 960px) {
+    .pub-image {
+        width: 25%;
+    }
+}
+
 .pub-entry {
     margin-top: 50px;
-    margin-left: 25px;
-    height: 195px;
+    margin-left: 0px;
+    height: 100%;
     text-align: left;
+}
+
+@media screen and (max-width: 960px) {
+    .pub-entry {
+        margin-top: 0px;
+        padding: 0 20px;
+        height: 100%;
+        text-align: left;
+    }
 }
 
 .pub-authors {
