@@ -1,82 +1,92 @@
 .title-bg {
-    padding: 32px 24px;
-    background: rgba(250,250,250,0.55);
-    border-radius: 28px;
-	color: #222629; /* #282a36; */
+  padding: 32px 24px;
+  background: rgba(250, 250, 250, 0.55);
+  border-radius: 28px;
+  color: #222629; /* #282a36; */
 }
 
 #highlights img {
-    border-style: solid;
-    border-width: 5px;
-    border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
 }
 
-#dialog {
-    display: none;
-    width: 90%;
-    height: 80%;
-    position: fixed;
-    top: 10%;
-    left: 5%;
-    z-index: 100;
-    background-color: rgba(27, 31, 34, 0.98);
-    border-color: rgba(27, 31, 34, 0.90);
-    border-width: 1px;
-    color: white;
-    border-radius: 4px;
-    padding: 10px 0px 10px 10px;
+.symbol {
+  margin-top: 3.3vw;
+  font-size: 8vw;
 }
 
-#dialog-content {
-    width: 100%;
-    height: 90%;
-    color: white;
-    overflow-y: scroll;
-}
-
-#dialog-content > h1 {
-    color: white;
-}
-
-#dialog-content > h2 {
-    color: white;
-}
-
-#dialog-content > h3 {
-    color: white;
-}
-
-#dialog-content > h4 {
-    color: white;
-}
-
-#dialog-content > h5 {
-    color: white;
+@media screen and (min-width: 1400px) {
+  .symbol {
+    margin-top: 45px;
+    font-size: 110pt;
+  }
 }
 
 /*
- *  Scrollbar style
+ * Dialog
  */
 
- #dialog-content::-webkit-scrollbar-track
- {
-     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-     box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-     border-radius: 10px;
-     background-color: #ddd;
- }
- 
- #dialog-content::-webkit-scrollbar
- {
-     width: 12px;
-     background-color: #ddd;
- }
- 
- #dialog-content::-webkit-scrollbar-thumb
- {
-     border-radius: 10px;
-     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-     box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-     background-color: #666;
- }
- 
+#dialog {
+  display: none;
+  width: 90%;
+  height: 80%;
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  z-index: 100;
+  background-color: rgba(27, 31, 34, 0.98);
+  border-color: rgba(27, 31, 34, 1.0);
+  box-shadow: 0 0 4px rgba(27, 31, 34, 1);
+  border-width: 1px;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 0px 10px 10px;
+}
+
+#dialog-content {
+  width: 100%;
+  height: 95%;
+  color: white;
+  overflow-y: scroll;
+}
+
+#dialog-content > h1 {
+  color: white;
+}
+
+#dialog-content > h2 {
+  color: white;
+}
+
+#dialog-content > h3 {
+  color: white;
+}
+
+#dialog-content > h4 {
+  color: white;
+}
+
+#dialog-content > h5 {
+  color: white;
+}
+
+#dialog-content::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #ddd;
+}
+
+#dialog-content::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 10px;
+  background-color: #ddd;
+}
+
+#dialog-content::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #666;
+}
