@@ -1,0 +1,7 @@
+<h2>Impressum</h2>
+<p>Dies ist die persönliche Website von Frederik Dennig.</p>
+<p>Verantwortlich nach § 5 TMG:</p>
+<p><span>Frederik Dennig<br>Tägermoosstr. 10 C<br>78462 Konstanz<br>Deutschland</span></p>
+<p><span>E-Mail: frederikdennig@gmail.com</span></p>
+<p>Datenschutzbeauftragte/r beim Anbieter ist:</p>
+<p><span>Frederik Dennig&nbsp;</span></p>

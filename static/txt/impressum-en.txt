@@ -1,0 +1,7 @@
+<h2>Impressum</h2>
+<p>This is the personal website of Frederik Dennig.</p>
+<p>Responsible according to § 5 TMG:</p>
+<p><span>Frederik Dennig</span><br><span>Taegermoosstrasse 10 C</span><br><span>78462 Konstanz</span><br><span>Germany</span></p>
+<p><span>Email: frederikdennig@gmail.com</span></p>
+<p>The controller's data protection officer is:</p>
+<p><span>Frederik Dennig&nbsp;</span></p>
